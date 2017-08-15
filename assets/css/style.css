@@ -1,0 +1,262 @@
+/*CONTAINER */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#header
+{
+    width: 100%;
+    background-color: white;
+    height: 105px;
+    border-bottom:2px solid #cccccc;
+}
+
+.col-left
+{
+    width: 35%;
+    margin-left:15%;
+    position: absolute;
+}
+
+.col-right
+{
+    float: right;
+    width: 35%;
+    margin-right:15%;
+}
+
+/* HEADER */
+#header h1
+{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    background-color: #4aaaa5;
+    width: 75%;
+    height: 70px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+#header #navigation
+{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 45px;
+}
+
+#header #navigation a
+{
+    color: #777777;
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+    font-size: 14pt;
+}
+
+#header #navigation a:nth-child(2)
+{
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+}
+
+#header #navigation a:hover
+{
+    color:black;
+    font-weight: bold;
+    transition: 0.1s all ease-in;
+    font-size: 12pt;
+}
+
+/* MAIN */
+#main
+{
+    padding-top: 70px;
+    height: auto;
+    background-image: url(../images/witewall_3.png);
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 115px;
+    background-attachment: fixed;
+}
+
+#main img
+{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+
+#main .col-left
+{
+    border:1px solid #dddddd;
+    padding: 30px;
+    background-color: white;
+    position: relative;
+    float: left;
+}
+
+#main h1
+{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+#main p
+{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 35px;
+    color: #777777;
+}
+
+#main .col-right
+{
+    border:1px solid #dddddd;
+    padding: 15px;
+    background-color: white;
+    width: 240px;
+    margin-right:25%;
+}
+
+#main .col-right h2
+{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#main .col-right img
+{
+    width: 50px;
+    height: 50px;
+}
+
+#social-media
+{
+    padding-left: 20px;
+}
+
+/* FOOTER */
+#footer
+{
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    position: relative;
+    width: 100%;
+    margin-top: -10px;
+}
+
+#footer p
+{
+    color: #dddddd;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    height: 100%;
+    line-height: 90px;
+}
+
+/* FORM */
+#form-main
+{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#form-main .input-form
+{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 15px;
+    margin-top: 6px;
+    text-indent: 10px;
+}
+
+#form-main .textarea-form
+{
+    width: 100%;
+    margin-top: 6px;
+    text-indent: 10px;
+    padding-top: 10px;
+    border-color:#dddddd;
+}
+
+#form-main label
+{
+    color: #777777;
+}
+
+#form-main .submit-btn
+{
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    font-size: 12pt;
+    margin-top: 10px;
+    transition:all ease-in 0.2s;
+}
+
+#form-main .submit-btn:hover
+{
+    background-color: #eeeeee;
+    color: #4aaaa5;
+    transition:all ease-in 0.2s;
+}
+
+/* PORTFOLIOS */
+.portfolio-row
+{
+    width: 100%;
+    text-align: center;
+}
+
+.portfolio-col
+{
+    display: inline-block;
+    width: 48%;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    height: 150px;
+    margin-bottom: 30px;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.portfolio-paragraph
+{
+    position: relative;
+}
+
+.portfolio-paragraph span
+{
+    top:115px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.portfolio-row .portfolio-col:nth-child(2)
+{
+    width: 1%;
+    border: none;
+}
+
+@media (max-width: 1400px) {
+    #main .col-left
+    {
+        border:1px solid #dddddd;
+        padding: 30px;
+        background-color: white;
+        position: relative;
+        float: left;
+        width: 30%;
+    }
+}
